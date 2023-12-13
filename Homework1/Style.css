@@ -18,6 +18,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
         
   }
   .title {
@@ -27,6 +28,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    padding-top: 217px;
   
     
        
@@ -40,6 +42,12 @@
     line-height: 32px;
     margin-top: 32px; 
   }
+  .bold {
+    font-weight: bold;
+    font-weight: 700px;
+    font-size: 20px;
+
+  }
   .button {
     width: 234.063px;
     height: 48.603px;
@@ -52,55 +60,83 @@
     font-weight: 400;
     line-height: normal;
     margin-top: 44px; 
-
-  }
+ }
+ .button:hover {
+    background: #EB443F;
+ }
   .product_box {
     background-image:url(img/backgr1.jpg);
     height: 556px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    
 }
-    .for-box {
+.for-box {
+    position: relative;
     display: flex;
     justify-content: space-between;
     gap: 32px;
 }
- .for_item {
+  
+img:hover {
+    border: 3px solid #44D2FF;
+    border-radius: 16px;
+}
+.img {
+    width: 379px;
+    height: 300px;
+    top: 1152px;
+    left: 120px;
+    border-radius: 16px;
+    box-sizing: border-box;
+    
+} 
+
+
+.play1 {
+    bottom: 32px;
+    left: 32px;
+    position: absolute;
     font-family: Montserrat;
     font-size: 24px;
     font-weight: 600;
     line-height: 32px;
     letter-spacing: 0px;
     text-align: left;
-    color: #FFF;
-    padding-top: 236px;
-    padding-left: 32px;
+    Color: #FFFFFF;
+    position: absolute;
+    
+}   
+    .image-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+  }
+  img {
     border-radius: 16px;
     margin-top: 128px;
-    margin-bottom: 128px;
-    height: 300px;
-    background-repeat: no-repeat;
-    Width: 379px;
-    Height: 300px;
-    Top: 1152px;
-    Left: 120px;
-    box-sizing: border-box;
-
- }
+  }
   
-  .for_item_1 {
-    background-image: url(img/play1.jpg);
-}
-  
-  
-  .for_item_2 {
-    background-image: url(img/play2.jpg);
-
-}
-  .for_item_3 {
-    background-image: url(img/play3.jpg);
-}
-  
-   
+  .image-text {
+    position: absolute;
+    bottom: 32px;
+    left: 32px;
+    position: absolute;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    Color: #FFFFFF;
+    
+  }
   
