@@ -52,9 +52,9 @@ let user = {
   age: 25,
   isAdmin: true
 };
-user.cityOfResidence = "Москва";
+user["city of residence"] = "Москва";
 user.age = 30;
-delete user.cityOfResidence;
+delete user["city of residence"];
 
 
 let info = prompt("Какую информацию хотите узнать о пользователе?");
