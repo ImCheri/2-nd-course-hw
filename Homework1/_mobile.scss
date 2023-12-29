@@ -23,11 +23,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    //flex-direction: column;
-    //justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    align-content: flex-start;
+    
           
   }
   .top_text {
@@ -51,13 +51,9 @@
     width: 343px;
     height: 300px;
     margin-top: 32px;
-   
-      
-   
+       
   }
- 
-
-   
+    
   }
   
 

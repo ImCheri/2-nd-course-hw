@@ -75,6 +75,7 @@ a {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 .for-box {
@@ -137,6 +138,42 @@ img {
   Color: #FFFFFF;
 }
 
+@media (max-width: 1024px) {
+  .center {
+    padding-left: calc(50% - 393px);
+    padding-right: calc(50% - 393px);
+    text-align: center;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .product_box {
+    background-image: url(img/backgr1.jpg);
+    height: 1221px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .img {
+    width: 343px;
+    height: 300px;
+    margin-top: 128px;
+  }
+  .img1 {
+    width: 343px;
+    height: 300px;
+    margin-top: 32px;
+  }
+  .img2 {
+    width: 343px;
+    height: 300px;
+    margin-top: 32px;
+  }
+}
 @media (max-width: 767px) {
   .center {
     text-align: center;
@@ -158,9 +195,10 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    align-content: flex-start;
   }
   .top_text {
     font-size: 14px;
