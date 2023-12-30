@@ -12,7 +12,7 @@
     color: #FFF;
     font-size: 32px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 700px;
     line-height: normal;
     padding-top: 238px;
 }
@@ -32,9 +32,19 @@
   }
   .top_text {
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 300px;
     letter-spacing: 0px;
     
+    
+  }
+  .top_text1 {
+    font-weight: 700px;
+  }
+  .button {
+    margin-top: 32px;
+    font-family: Montserrat;
+    font-weight:400px;
+    font-size: 18px;
   }
   .img {
     width: 343px;

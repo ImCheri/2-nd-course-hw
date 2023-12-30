@@ -28,7 +28,7 @@ a {
   color: #FFF;
   font-size: 64px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 700px;
   line-height: normal;
   padding-top: 217px;
 }
@@ -36,10 +36,13 @@ a {
 .top_text {
   color: #FFF;
   font-size: 18px;
-  font-style: normal;
   line-height: 32px;
   margin-top: 32px;
-  font-weight: 700;
+  font-weight: 300px;
+}
+
+.top_text1 {
+  font-weight: 700px;
 }
 
 .bold {
@@ -53,10 +56,11 @@ a {
   height: 48.603px;
   border-radius: 30px;
   background: #9C0332;
+  font-family: Montserrat;
   color: #FFF;
   font-size: 18px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400px;
   line-height: normal;
   margin-top: 44px;
 }
@@ -104,7 +108,7 @@ img:hover {
   left: 32px;
   position: absolute;
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 600px;
   line-height: 32px;
   letter-spacing: 0px;
   text-align: left;
@@ -131,7 +135,7 @@ img {
   left: 32px;
   position: absolute;
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 600px;
   line-height: 32px;
   letter-spacing: 0px;
   text-align: left;
@@ -184,7 +188,7 @@ img {
     color: #FFF;
     font-size: 32px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 700px;
     line-height: normal;
     padding-top: 238px;
   }
@@ -202,8 +206,17 @@ img {
   }
   .top_text {
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 300px;
     letter-spacing: 0px;
+  }
+  .top_text1 {
+    font-weight: 700px;
+  }
+  .button {
+    margin-top: 32px;
+    font-family: Montserrat;
+    font-weight: 400px;
+    font-size: 18px;
   }
   .img {
     width: 343px;
