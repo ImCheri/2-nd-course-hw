@@ -122,22 +122,5 @@ let circle1 = {
   console.log("Площадь круга circle2:", circle2.getArea()); 
   console.log("Периметр окружности circle2:", circle2.getPerimeter()); 
 
-  //Задание для макета
-  function getSeason(monthNumber) {
-    if (monthNumber < 1 || monthNumber > 12 || isNaN(monthNumber)) {
-        return 'Ошибка: введен неверный номер месяца';
-    } else if (monthNumber === 12 || monthNumber <= 2) {
-        return 'Зима';
-    } else if (monthNumber >= 3 && monthNumber <= 5) {
-        return 'Весна';
-    } else if (monthNumber >= 6 && monthNumber <= 8) {
-        return 'Лето';
-    } else {
-        return 'Осень';
-    }
-}
 
-// Пример использования
-console.log(getSeason(3)); // Выведет "Весна"
-console.log(getSeason(8)); // Выведет "Лето"
-console.log(getSeason(13)); // Выведет "Ошибка: введен неверный номер месяца"
+  
