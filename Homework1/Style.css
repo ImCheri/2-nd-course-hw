@@ -62,7 +62,7 @@ a {
   font-style: normal;
   font-weight: 400px;
   line-height: normal;
-  margin-top: 44px;
+  margin-top: 32px;
 }
 
 .button:hover {
@@ -142,6 +142,38 @@ img {
   Color: #FFFFFF;
 }
 
+.seasongame {
+  background-color: #000915;
+  top: 1580px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 135px;
+  background-size: cover;
+  padding-bottom: 233px;
+}
+
+.name {
+  font-size: 48px;
+  font-weight: 700px;
+  line-height: 59px;
+  letter-spacing: 0px;
+  text-align: left;
+  Color: #FFFFFF;
+}
+
+.instruction {
+  font-size: 18px;
+  font-weight: 300px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  Color: #FFFFFF;
+  margin-top: 32px;
+}
+
 @media (max-width: 1024px) {
   .center {
     padding-left: calc(50% - 393px);
@@ -175,6 +207,37 @@ img {
   .img2 {
     width: 343px;
     height: 300px;
+    margin-top: 32px;
+  }
+  .seasongame {
+    background-color: #000915;
+    top: 1580px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: wrap;
+    gap: 135px;
+    background-size: cover;
+    padding-bottom: 233px;
+  }
+  .seasongametext {
+    padding-top: 48px;
+  }
+  .name {
+    font-size: 48px;
+    font-weight: 700px;
+    line-height: 59px;
+    letter-spacing: 0px;
+    text-align: left;
+    Color: #FFFFFF;
+  }
+  .instruction {
+    font-size: 18px;
+    font-weight: 300px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    Color: #FFFFFF;
     margin-top: 32px;
   }
 }
@@ -232,5 +295,31 @@ img {
     width: 343px;
     height: 300px;
     margin-top: 32px;
+  }
+  .seasongame {
+    gap: 64px;
+  }
+  .seasongametext {
+    padding-top: 51px;
+  }
+  .name {
+    display: none;
+  }
+  .name-mob {
+    font-size: 32px;
+    font-weight: 700px;
+    line-height: 39px;
+    text-align: center;
+    Color: #FFFFFF;
+  }
+  .instruction {
+    font-size: 14px;
+    font-weight: 300px;
+    line-height: 22px;
+    text-align: center;
+  }
+  .img3 {
+    width: 344px;
+    margin: 0;
   }
 }/*# sourceMappingURL=Style.css.map */

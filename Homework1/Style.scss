@@ -13,7 +13,7 @@
     text-decoration: none;
   }
   .top {
-        height: 1024px;
+    height: 1024px;
     background-image:url(img/backgr.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -60,7 +60,7 @@
     font-style: normal;
     font-weight: 400px;
     line-height: normal;
-    margin-top: 44px; 
+    margin-top: 32px; 
  }
  .button:hover {
     background: #EB443F;
@@ -88,7 +88,7 @@
 img:hover {
     border: 3px solid #44D2FF;
     border-radius: 16px;
-}
+  }
 .img {
     width: 379px;
     height: 300px;
@@ -97,7 +97,8 @@ img:hover {
     border-radius: 16px;
     box-sizing: border-box;
 
-} 
+  }
+
 
 
 .play1 {
@@ -112,7 +113,7 @@ img:hover {
     Color: #FFFFFF;
     position: absolute;
 
-}   
+   }
     .image-container {
     position: relative;
     display: flex;
@@ -121,6 +122,7 @@ img:hover {
     align-items: flex-start;
 
   }
+  
   img {
     border-radius: 16px;
     margin-top: 128px;
@@ -137,8 +139,44 @@ img:hover {
     letter-spacing: 0px;
     text-align: left;
     Color: #FFFFFF;
-
   }
+    .seasongame {
+      background-color: #000915;
+      top: 1580px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 135px;
+      background-size: cover;
+      padding-bottom: 233px;
+    }
+    
+    .name {
+      
+      font-size: 48px;
+      font-weight: 700px;
+      line-height: 59px;
+      letter-spacing: 0px;
+      text-align: left;
+      Color: #FFFFFF;
+  
+    }
+    .instruction {
+      font-size: 18px;
+      font-weight: 300px;;
+      line-height: 32px;
+      letter-spacing: 0px;
+      text-align: left;
+      Color: #FFFFFF;
+      margin-top: 32px;
+  }
+
+ 
+
+
+  
   @media (max-width: 1024px) {
     .center {
         padding-left: calc(50% - 393px);
@@ -178,6 +216,45 @@ img:hover {
       margin-top: 32px;
          
     }
+  
+  .seasongame {
+    
+    background-color: #000915;
+    top: 1580px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: wrap;
+    gap: 135px;
+     background-size: cover;
+    padding-bottom: 233px;
+    
+}
+.seasongametext {
+  padding-top: 48px;
+}
+  .name {
+    
+    font-size: 48px;
+    font-weight: 700px;
+    line-height: 59px;
+    letter-spacing: 0px;
+    text-align: left;
+    Color: #FFFFFF;
+      
+
   }
+  .instruction {
+    font-size: 18px;
+    font-weight: 300px;;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    Color: #FFFFFF;
+    margin-top: 32px;
+}
+}
+
+
   @import 'mobile'
   
