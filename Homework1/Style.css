@@ -1,0 +1,329 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+.center {
+  padding-left: calc(50% - 600PX);
+  padding-right: calc(50% - 600px);
+}
+
+a {
+  text-decoration: none;
+}
+
+.top {
+  height: 1024px;
+  background-image: url(img/backgr.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  color: #FFF;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700px;
+  line-height: normal;
+  padding-top: 217px;
+}
+
+.top_text {
+  color: #FFF;
+  font-size: 18px;
+  line-height: 32px;
+  margin-top: 32px;
+  font-weight: 300px;
+}
+
+.top_text1 {
+  font-weight: 700px;
+}
+
+.bold {
+  font-weight: bold;
+  font-weight: 700px;
+  font-size: 20px;
+}
+
+.button {
+  width: 234.063px;
+  height: 48.603px;
+  border-radius: 30px;
+  background: #9C0332;
+  font-family: Montserrat;
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400px;
+  line-height: normal;
+  margin-top: 32px;
+}
+
+.button:hover {
+  background: #EB443F;
+}
+
+.product_box {
+  background-image: url(img/backgr1.jpg);
+  height: 556px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.for-box {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+img:hover {
+  border: 3px solid #44D2FF;
+  border-radius: 16px;
+}
+
+.img {
+  width: 379px;
+  height: 300px;
+  top: 1152px;
+  left: 120px;
+  border-radius: 16px;
+  box-sizing: border-box;
+}
+
+.img3:hover {
+  border: #000915;
+}
+
+.play1 {
+  bottom: 32px;
+  left: 32px;
+  position: absolute;
+  font-size: 24px;
+  font-weight: 600px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  Color: #FFFFFF;
+  position: absolute;
+}
+
+.image-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+img {
+  border-radius: 16px;
+  margin-top: 128px;
+}
+
+.image-text {
+  position: absolute;
+  bottom: 32px;
+  left: 32px;
+  position: absolute;
+  font-size: 24px;
+  font-weight: 600px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  Color: #FFFFFF;
+}
+
+.seasongame {
+  background-color: #000915;
+  top: 1580px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 135px;
+  background-size: cover;
+  padding-bottom: 233px;
+}
+
+.name {
+  font-size: 48px;
+  font-weight: 700px;
+  line-height: 59px;
+  letter-spacing: 0px;
+  text-align: left;
+  Color: #FFFFFF;
+}
+
+.instruction {
+  font-size: 18px;
+  font-weight: 300px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  Color: #FFFFFF;
+  margin-top: 32px;
+}
+
+@media (max-width: 1024px) {
+  .center {
+    padding-left: calc(50% - 393px);
+    padding-right: calc(50% - 393px);
+    text-align: center;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .product_box {
+    background-image: url(img/backgr1.jpg);
+    height: 1221px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .img {
+    width: 343px;
+    height: 300px;
+    margin-top: 128px;
+  }
+  .img1 {
+    width: 343px;
+    height: 300px;
+    margin-top: 32px;
+  }
+  .img2 {
+    width: 343px;
+    height: 300px;
+    margin-top: 32px;
+  }
+  .seasongame {
+    background-color: #000915;
+    top: 1580px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: wrap;
+    gap: 135px;
+    background-size: cover;
+    padding-bottom: 233px;
+  }
+  .seasongametext {
+    padding-top: 48px;
+  }
+  .name {
+    font-size: 48px;
+    font-weight: 700px;
+    line-height: 59px;
+    letter-spacing: 0px;
+    text-align: left;
+    Color: #FFFFFF;
+  }
+  .instruction {
+    font-size: 18px;
+    font-weight: 300px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    Color: #FFFFFF;
+    margin-top: 32px;
+  }
+}
+@media (max-width: 767px) {
+  .center {
+    text-align: center;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .title {
+    color: #FFF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700px;
+    line-height: normal;
+    padding-top: 238px;
+  }
+  .product_box {
+    background-image: url(img/backgr1.jpg);
+    height: 1221px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .top_text {
+    font-size: 14px;
+    font-weight: 300px;
+    letter-spacing: 0px;
+  }
+  .top_text1 {
+    font-weight: 700px;
+  }
+  .button {
+    margin-top: 32px;
+    font-family: Montserrat;
+    font-weight: 400px;
+    font-size: 18px;
+  }
+  .img {
+    width: 343px;
+    height: 300px;
+    margin-top: 128px;
+  }
+  .img1 {
+    width: 343px;
+    height: 300px;
+    margin-top: 32px;
+  }
+  .img2 {
+    width: 343px;
+    height: 300px;
+    margin-top: 32px;
+  }
+  .seasongame {
+    gap: 64px;
+  }
+  .seasongametext {
+    padding-top: 51px;
+  }
+  .name {
+    display: none;
+  }
+  .name-mob {
+    font-size: 32px;
+    font-weight: 700px;
+    line-height: 39px;
+    text-align: center;
+    Color: #FFFFFF;
+  }
+  .instruction {
+    font-size: 14px;
+    font-weight: 300px;
+    line-height: 22px;
+    text-align: center;
+  }
+  .img3 {
+    width: 344px;
+    margin: 0;
+  }
+}/*# sourceMappingURL=Style.css.map */
