@@ -103,6 +103,10 @@ img:hover {
   box-sizing: border-box;
 }
 
+.img3:hover {
+  border: #000915;
+}
+
 .play1 {
   bottom: 32px;
   left: 32px;
